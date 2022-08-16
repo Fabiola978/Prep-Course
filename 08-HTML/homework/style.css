@@ -1,3 +1,7 @@
+body{
+    background-image: url("img/fondoweb.jpg");
+    position: right top;
+}
 h1{
     color: yellow
 }
@@ -6,15 +10,26 @@ img {
 }
 
 .divClass {
+    position: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgba(250, 214, 98, 40%);
+    padding: 10px;
+    border: 2px solid black;
 
 }
 
 #thirdDiv {
     height: 600px;
     width: 500px;
+    margin: auto;
     background-color: palegreen;
     padding: 50px;
     border: 3px solid burlywood
+    
+    
 }
 
 #spanId {
